@@ -1,0 +1,31 @@
+div.carrusel {
+ max-height: 100%; 
+}
+
+.carrusel > img {
+ display: none;
+ width : 100%;
+ height: 100%;
+}
+
+.carrusel img.selected {
+ display: block; 
+}
+
+.minis {
+    position: relative;
+    bottom: 55px;
+    left: 5px;
+}
+
+.minis img {
+  width: 100px;
+  height: 50px;
+  margin-right:5px;
+  float: left;
+  opacity:0.45;
+}
+
+.minis img:hover {
+  opacity:1;
+}
